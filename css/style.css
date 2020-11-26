@@ -85,13 +85,90 @@ h1{
 	vertical-align:top;
 }
 
+/* mobile */
+.mobile{
+	display:none;
+	position:fixed;
+	width:100%;
+	height:65px;
+	background:#fff;
+	z-index:5;
+}
+.mobile>ul{
+	text-align:center;
+}
+.mobile>ul>li:nth-child(1){
+	float:left;
+	padding-top:30px;
+	padding-left:10px;
+}
+.appBtn{
+	position:relative;
+	display:block;
+	width:26px;
+	height:16px;
+}
+.appBtn>i{
+	position:absolute;
+	display:block;
+	width:100%;
+	hieght:2px;
+	left:0;
+	background:#555;
+}
+.appBtn>i.bar1{
+	top:0;
+	transform:rotate(0deg);
+	transition:all 0.3s;
+}
+.appBtn>i.bar1.addAppbar{
+	top:50%;
+	margin-top:-1px;
+	transform:rotate(0deg);
+	transition:all 0.3s;
+}
+.appBtn>i.bar2{
+	top:50%;
+	margin-top:-1px;
+	transform:rotate(0deg);
+	transition:all 0.3s;
+}
+.appBtn>i.bar2.addAppbar{
+	top:50%;
+	margin-top:-1px;
+	opacity:0;
+	transition:all 0.3s;
+}
+.appBtn>i.bar3{
+	bottom:0;
+	transform:rotate(0deg);
+	transition:all 0.3s;
+}
+.appBtn>i.bar3.addAppbar{
+	bottom:50%;
+	margin-bottom:-1px;
+	transform:rotate(45deg);
+	transition:all 0.3s;
+}
 
-
-
-
-
-
-
+.mobile>ul>li:nth-child(2){
+	display:inline-block;
+	padding-top:25px;
+	transition:all 0.3s;
+}
+.mobile>ul>li:nth-child(2) a img{
+	display:block;
+	width:193px;
+}
+.mobile>ul>li:nth-child(3){
+	float:right;
+	padding-top:22px;
+	margin-right:40px;
+}
+.mobile>ul>li:nth-child(3)>a{
+	font-size:20px;
+	color:#555;
+}
 
 
 
