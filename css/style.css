@@ -484,8 +484,63 @@ h1{
 	padding-bottom:60px;
 }
 
+/* bxslider */
 
-
+/* dynamic */
+#dynamic h2{
+	padding-top:70px;
+	text-align:center;
+	margin-bottom:40px;
+}
+#dynamic h3{
+	font-size:50px;
+	color:#fff;
+	letter-spacing:-2px;
+	text-align:center;
+}
+#dynamic h4{
+	font-size:18px;
+	color:#555;
+	letter-spacing:-1px;
+	text-align:center;
+	margin-top:22px;
+}
+.dynamic_banner{
+	margin-top:44px;
+	
+}
+.dynamic_banner ul{
+	overflow:hidden;
+}
+.dynamic_banner ul li{
+	float:left;
+	width:250px;
+	height:343px;
+	background:#fff;
+	margin-right:52px;
+	box-shadow:5px 5px 10px #666;
+}
+.dynamic_banner ul li:last-child{
+	margin-right:0;
+}
+.dynamic_banner ul li img{
+	padding-top:43px;
+	width:250px;
+	height:250px;
+	border:1px solid #ddd;
+}
+.dynamic_banner ul li.lastLi img{
+	width:250px;
+	height:300px;
+	border-bottom:0;
+} 
+#dynamic .link a{
+	float:right;
+	display:block;
+	margin-top:10px;
+	text-decoration:underline;
+	color:#222;
+}
 
 
 
