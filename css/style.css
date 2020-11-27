@@ -423,7 +423,50 @@ h1{
 	background:#757575;
 }
 
-
+/* banner */
+.container1{
+	width:100%;
+	position:relative;
+}
+.container1 .bannerLeftBtn{
+	position:absolute;
+	left:5%;
+	top:280px;
+	z-index:999;
+}
+.container1 .bannerRightBtn{
+	position:absolute;
+	right:5%;
+	top:280px;
+	z-index:999;
+}
+.container1 .bannerArea{
+	width:1440px;
+	margin:0 auto;
+	height:inherit;
+	top:65px;
+	position:relative;
+	overflow:hidden;
+}
+.container1 .bannerArea ul{
+	position:relative;
+	width:2000px;
+	overflow:hidden;
+	height:427px;
+}
+.container1 .bannerArea ul li{
+	float:left;
+	margin-right:60px;
+}
+.container1 .bannerArea ul li:last-child{
+	margin-left:0;
+}
+.container1 .bannerArea ul li img{
+	width:240px;
+}
+.container2{
+	display:none;
+}
 
 
 
