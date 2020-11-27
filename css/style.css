@@ -580,7 +580,37 @@ h1{
 	letter-spacing:-2px;
 }
 
-
+/* user */
+#user h2{
+	font-size:52px;
+	color:#1e1e1e;
+	font-weight:300;
+	text-align:center;
+	padding-top:70px;
+	margin-bottom:70px;
+}
+#user h2 span{
+	font-weight:normal;
+	display:block;
+	font-size:50px;
+}
+#user .userText li{
+	float:left;
+	width:25%;
+	border-right:1px solid #e9e9e9;
+	box-sizing:border-box;
+	padding:0 20px;
+	color:#777;
+	font-size:18px;
+	letter-spacing:-1px;
+}
+#user .userText li span{
+	display:block;
+	color:#1e1e1e;
+	letter-spacing:-1px;
+	margin-top:26px;
+	text-align:center;
+}
 
 
 
