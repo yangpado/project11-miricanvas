@@ -1,6 +1,6 @@
 @charset "utf-8"
 body{
-	font-family:'Noto Sans KR',sans-serif;
+	font-family: 'Noto Sans KR', sans-serif;
 }
 
 /* common */
@@ -620,6 +620,43 @@ h1{
 	margin-top:93px;
 }
 
+/* etc_box */
+#etc_box ul{
+	display:flex;
+}
+
+#etc_box ul li{
+	width:20%;
+	border-right:1px solid #2e2e2e;
+	height:163px;
+	text-align:center;
+	padding-top:100px;
+	color:#f6f6f6;
+	box-sizing:border-box;
+}
+#etc_box ul li:first-child{
+	background:url(../images/MA_manual.png) no-repeat center 50px;
+	border-left:1px solid #2e2e2e;
+}
+#etc_box ul li:nth-child(2){
+	background:url(../images/MA_introduction.png) no-repeat center 50px;
+	border-left:1px solid #2e2e2e;
+}
+
+#etc_box ul li:nth-child(3){
+	background:url(../images/MA_license.png) no-repeat center 50px;
+	border-left:1px solid #2e2e2e;
+}
+
+#etc_box ul li:nth-child(4){
+	background:url(../images/MA_qna.png) no-repeat center 50px;
+	border-left:1px solid #2e2e2e;
+}
+
+#etc_box ul li:nth-child(5){
+	background:url(../images/MA_news.png) no-repeat center 50px;
+	border-left:1px solid #2e2e2e;
+}
 
 
 
