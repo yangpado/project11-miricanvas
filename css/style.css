@@ -658,6 +658,76 @@ h1{
 	border-left:1px solid #2e2e2e;
 }
 
+/* footer */
+.f_inner{
+	display:flex;
+	position:relative;
+	padding:35px 0 30px;
+	overflow:hidden;
+}
+.f_inner>ul{
+	overflow:hidden;
+	padding:0 10px;
+}
+.f_inner>ul>li{
+	float:left;
+}
+.f_inner>ul>li .tit{
+	font-size:14px;
+	color:#1e1e1e;
+	font-weight:600;
+	line-height:13px;
+	margin:0 0 20px;
+}
+.f_inner>ul>li .txt{
+	font-size:14px;
+	line-height:22px;
+	color:#666;
+	letter-spacing:-0.25px;
+}
+.f_inner>ul>li .txt a{
+	color:#555;
+	text-decoration:underline;
+}
+.f_inner>ul>li.foot1{
+	width:330px;
+}
+.f_inner>ul>li.foot2{
+	width:230px;
+}
+.f_inner>ul>li.foot3{
+	width:300px;
+}
+.f_inner .util>ul{
+	/* overflow:hidden; */
+}
+
+.f_inner .util>ul li{
+	float:left;
+	padding:0 15px 0 16px;
+	border-left:1px solid #f2f2f2;
+	height:28px;
+}
+
+.f_inner .util>ul li:first-child{
+	padding:0 15px 0 0;
+	border-left:0;
+}
+.f_inner .util>ul li:last-child{
+	padding:0 0 0 16px;
+}
+.f_inner .util>ul li>a{
+	display:block;
+	width:12px;
+	text-align:center;
+}
+
+.copy{
+	font-size:12px;
+	color:#888;
+	font-weight:400;
+	padding-bottom:40px;
+}
 
 
 
