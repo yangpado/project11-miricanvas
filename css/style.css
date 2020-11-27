@@ -612,6 +612,13 @@ h1{
 	text-align:center;
 }
 
+/* reference */
+#reference .container{
+	text-align:center;
+}
+#reference .container img{
+	margin-top:93px;
+}
 
 
 
