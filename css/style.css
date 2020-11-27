@@ -542,9 +542,43 @@ h1{
 	color:#222;
 }
 
-
-
-
+/* 영상 */
+.moviePhone{
+	width:50%;
+	float:left;
+	background:url(../images/main_mobile.png) no-repeat bottom center;
+	height:700px;
+	position:relative;
+}
+.moviePhone video{
+	width:407px;
+	height:407px;
+	top:240px;
+	position:absolute;
+	left:87px;
+	
+}
+.movieText{
+	width:50%;
+	float:left;
+}
+.movieText h2{
+	color:#fff;
+	font-size:48px;
+	letter-spacing:-2px;
+	margin-top:130px;
+	margin-left:20px;
+}
+.movieText h2 span{
+	color:#ffe7bd;
+	font-weight:normal;
+}
+.movieText p{
+	color:#ffe7bd;
+	margin-left:20px;
+	font-size:25px;
+	letter-spacing:-2px;
+}
 
 
 
