@@ -729,6 +729,50 @@ h1{
 	padding-bottom:40px;
 }
 
+/* media query */
+@media screen and (max-width:1440px) {
+	.container1 .bannerArea{
+		width:100%;
+		box-sizing:border-box;
+	}
+	.bx-wrapper .bx-prev{left:5%;}
+	.bx-wrapper .bx-next{right:5%;}
+	
+	
+} /* (max-width:1440px) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
